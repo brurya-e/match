@@ -1,8 +1,6 @@
 import React from 'react';
 import Dog from './component/Dogs';
 
-
-
 class App extends React.Component {
     state = {
         happy: 0,
@@ -46,7 +44,7 @@ class App extends React.Component {
                     {this.state.sad}
                 </div>
                 <div className='pic'>
-                    <img src={this.state.pic} />
+                    <img src={this.state.pic} alt ='' />
                 </div>
                 <div className='like'>
                     <button onClick={this.onClickHappy}>
