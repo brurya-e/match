@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './ToDo/App'
+import App from './weekend1/App'
 
 ReactDOM.render(
   <React.StrictMode>
